@@ -1,11 +1,11 @@
-﻿my_numbers = ['6', '4', '32', '8', '16', '39']
+﻿my_numbers = ['6', '4', '32', '8', '16', '39']    # числа, вводимые пользователем
 for i in range(len(my_numbers)):
     my_numbers[i] = int(my_numbers[i])
 win = []
 counter0, counter1, counter2, counter3, counter4, counter5 = 0, 0, 0, 0, 0, 0
 from random import randint
 
-for i in range(100):
+for i in range(100):                          # количество тиражей
     
     while len(win) < 6:
         a = randint(1, 46)
